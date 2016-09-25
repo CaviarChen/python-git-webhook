@@ -1,0 +1,15 @@
+{
+  "server": {
+    "host": "127.0.0.1",
+    "port": 5000,
+    "debug": true,
+    "log_path": "logs/"
+  },
+  "webhooks": {
+    "main": {
+      "type": "git@osc",
+      "local_path": "aaaaa",
+      "key": "bbbbb"
+    }
+  }
+}
